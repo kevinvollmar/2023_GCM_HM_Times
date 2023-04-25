@@ -44,6 +44,6 @@ for tr in data_rows:
 results = pd.DataFrame(data, columns=headers)
 
 # Export the dataframe to a csv file
-results.to_csv('D:\Documents\Kevin_Portfolio\RunningStats\GCMresults20230423.csv', index=False)
+results.to_csv('D:\Documents\Kevin_Portfolio\\2023_GCM_HM_Times\GCMresults20230423.csv', index=False)
 
 print(results.tail())
